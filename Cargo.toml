@@ -16,10 +16,6 @@ name = "main"
 path = "src/main.rs"
 
 [[bin]]
-name = "borsa"
-path = "src/bin/borsa.rs"
-
-[[bin]]
 name = "gdb"
 path = "src/bin/gdb.rs"
 
