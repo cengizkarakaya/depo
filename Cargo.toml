@@ -1,0 +1,23 @@
+[package]
+name = "depo"
+version = "0.1.0"
+edition = "2024"
+default-run = "main"
+
+[workspace]
+members = ["lib"]
+
+[dependencies]
+lib = {path = "lib"}
+rand = "0.10.0"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "borsa"
+path = "src/bin/borsa.rs"
+
+
+
