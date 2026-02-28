@@ -19,5 +19,9 @@ path = "src/main.rs"
 name = "borsa"
 path = "src/bin/borsa.rs"
 
+[[bin]]
+name = "gdb"
+path = "src/bin/gdb.rs"
+
 
 
