@@ -389,7 +389,7 @@ let mut rng = rand::rng();
     }
 
     let result = parts.join(", ") + ".";
-    println!("hair: {}\n", result);
+    println!("{}\n", result);
 
     // --- Face Shape ---
     let face_shapes = [
@@ -457,7 +457,7 @@ let mut rng = rand::rng();
     let detail = face_details.choose(&mut rng).unwrap();
 
     let result = format!("{}, {}, {}, {}, {}.", shape, eyes, nose, mouth, detail);
-    println!("face: {}", result);
+    println!("{}", result);
 
     alt_cizgi();
 }
