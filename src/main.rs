@@ -1,9 +1,6 @@
-use lib::*;
 use std::io::{self, BufRead};
 
 fn main() {
-    ust_cizgi();
-
 
     println!("Bir satır metin girin:");
 
@@ -49,7 +46,4 @@ fn main() {
         println!("En uzun kelime              : (hiç kelime yok)");
     }
 
-
-
-    alt_cizgi();
 }
