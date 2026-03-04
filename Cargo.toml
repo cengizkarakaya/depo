@@ -19,5 +19,7 @@ path = "src/main.rs"
 name = "gdb"
 path = "src/bin/gdb.rs"
 
-
+[[bin]]
+name = "high_math"
+path = "src/bin/high_math.rs"
 
